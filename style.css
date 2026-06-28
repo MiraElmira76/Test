@@ -1,0 +1,38 @@
+
+body {
+  font-family: Montserrat;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400px;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  color: #515076;
+}
+
+.products-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-text {
+  color: #515076;
+}
+
+
+.button {
+  background-color: #515076;
+  color: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+font-size: 20px;
+}
+
+.button-green {
+  background-color: #2ecc71;
+}
