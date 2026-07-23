@@ -1,26 +1,85 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
-  font-family: Montserrat;
-  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  color: #515076;
+}
+
+.container {
+  margin: 0 auto;
+  background-image: url("img/фон\ одуванчики.png");
+  max-width: 1110px;
+  background-size: 790px auto;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.card-img {
+width: 290px;
+height: 245px;
+display: block;
+margin-bottom: 25px;
 }
 
 .title {
   font-size: 70px;
   font-weight: 400px;
   line-height: 78px;
-  margin: 0;
+  margin: 100px 0;
   text-align: center;
-  color: #515076;
+}
+
+.card {
+  width: 340px;
+  padding: 25px;
+  background-color: #f7f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skin-type {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .products-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
   padding: 0;
-  margin: 0;
 }
 
-.main-text {
-  color: #515076;
+.products-description {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.compound {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.compound-list {
+  padding: 15px;
+}
+
+.product-price {
+  display: flex;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 27px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.product-price b {
+  font-weight: 700;
 }
 
 
@@ -29,10 +88,22 @@ body {
   color: white;
   border: 1px solid #000;
   border-radius: 5px;
-  padding: 10px 20px;
-font-size: 20px;
+  padding: 5px 60px;
+  font-size: 25px;
+  width: 100%
 }
 
 .button-green {
   background-color: #2ecc71;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.button-brown {
+  background-color: brown;
+}
+.button-mediumorchid {
+  background-color: mediumorchid;
 }
