@@ -1,0 +1,23 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.product__item {
+  width: 340px;
+}
+
+.product__price {
+  display: flex;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 27px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.product-price b {
+  font-weight: 700;
+}
