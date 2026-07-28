@@ -29,17 +29,17 @@ body {
   
 }
 
-.button-green {
+.button__green {
   background-color: #2ecc71;
 }
 
-.button-blue {
+.button__blue {
   background-color: blue;
 }
 
-.button-brown {
+.button__brown {
   background-color: brown;
 }
-.button-mediumorchid {
+.button__mediumorchid {
   background-color: mediumorchid;
 }
