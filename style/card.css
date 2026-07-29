@@ -1,0 +1,48 @@
+.card {
+  padding: 25px;
+  background-color: #f7f7fa;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(110%);
+}
+
+.card--lightcyan {
+  background-color: lightcyan;
+}
+
+.card__img {
+  width: 290px;
+  height: 245px;
+  display: block;
+  margin-bottom: 25px;
+  border: 6px solid cadetblue;
+}
+
+.card__name {
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.card__cateqory {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #A5A3B9;
+  text-transform: uppercase;
+}
+
+.card__description {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.card__compound {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.compound__list {
+  padding: 15px;
+}
