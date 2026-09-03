@@ -1,7 +1,20 @@
 .card {
+  justify-content: space-between;
+  width: 340px;
   padding: 25px;
   background-color: #f7f7fa;
   transition: background-color 0.3s, transform 0.2s;
+  flex-direction: column;
+  display: flex;
+}
+
+.card__container {
+  background-image: url('../img/bg-flowers.png');
+  margin: 0 auto;
+  max-width: 1110px;
+  background-position: left top;
+  padding-top: 1px;
+  color: #515976;
 }
 
 .card:hover {
