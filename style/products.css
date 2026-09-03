@@ -1,8 +1,11 @@
-.products {
+.products__card {
+  justify-content: center;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
-  justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 .product__item {
